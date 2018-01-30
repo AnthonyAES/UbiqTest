@@ -20,15 +20,15 @@
             <div class="container-fluid">
                 <div class="row justify-content-end">
                     <div class="d-flex nav-account col-md-3">
-                       <a class="align-self-center align-self-end" href="#">Bienvenue <span class="user">User</span><i class="fa fa-building-o i-white" aria-hidden="true"></i></a>                 
+                       <a class="align-self-center align-self-end" href="#">Bienvenue <span class="user">Anthony Sautebin</span><i class="fa fa-building-o i-white" aria-hidden="true"></i></a>                 
                     </div>
                 </div>
-                <div class="row justify-content-end">
-                    <div class="nav-breadcrumb col-md-12 align-self-end">
+                <div class="row bread-bg align-items-center justify-content-end">
+                    <div class="nav-breadcrumb col-md-12">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item" aria-current="page"><i class="fa fa-sitemap i-black" aria-hidden="true"></i><span>Utilisateurs</span></li>
-                                <li class="breadcrumb-item active" aria-current="page"><i class="fa fa-map-marker i-black" aria-hidden="true"></i><a href="#">Liste</a></li>
+                                <li class="breadcrumb-item align-self-center fa" aria-current="page"><i class="fa fa-sitemap i-black" aria-hidden="true"></i><span class="align-self-center">Utilisateurs</span></li>
+                                <li class="breadcrumb-item active fa" aria-current="page"><i class="fa fa-map-marker i-black" aria-hidden="true"></i><a class="align-self-center" href="#">Liste</a></li>
                             </ol>
                         </nav>                        
                     </div>
@@ -37,27 +37,21 @@
     </header>
     
     <main>
-        <section class="left-sidebar dontshow">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-2">
+        <section class="left-sidebar">
                         <div class="head-side"></div>
                             <nav class="side-nav">
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
-                                        <a class="nav-link active" href="#"><span>Utilisateur</span> <i class="fa fa-chevron-down" aria-hidden="true"></i> <i class="align-sefl-end fa fa-sitemap i-black" aria-hidden="true"></i></a>
+                                        <a class="d-flex flew-row nav-link active" href="#"><span class="align-self-center">Utilisateur</span> <i class="align-self-center fa fa-chevron-down align-self-cneter" aria-hidden="true"></i> <i class="ml-auto fa fa-sitemap i-black" aria-hidden="true"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#"><span>Gestion des utilisateurs</span> <i class="fa fa-tags i-black" aria-hidden="true"></i></a>
+                                        <a class="nav-link d-flex flew-row" href="#"><span class="align-self-center">Gestion des utilisateurs</span> <i class="ml-auto fa fa-tags i-black" aria-hidden="true"></i></a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#"><span>Gestions des sociétés</span> <i class="fa fa-map-marker i-black" aria-hidden="true"></i></a>
+                                    <li class="nav-item active">
+                                        <a class="nav-link d-flex flew-row" href="#"><span class="align-self-center">Gestions des sociétés</span> <i class="ml-auto fa fa-map-marker i-black" aria-hidden="true"></i></a>
                                     </li>
                                 </ul>
                             </nav>
-                    </div>
-                </div>
-            </div>
         </section>
         
         <section class="main-content">
@@ -66,7 +60,7 @@
                         <div class="d-flex flex-row filters col-md-12">
                            <div class="statut">
                                <h3>Statut</h3>
-                                <select id="statut" class="btn btn-outline-secondary dropdown-toggle">
+                                <select id="statut" class="btn dropdown-toggle">
                                     <option value="statut-1" selected>Actif</option> 
                                     <option value="statut-0">Inactif</option>
                                 </select>
@@ -75,59 +69,67 @@
                                <button type="button" class="btn btn-primary"><i class="fa fa-filter i-white" aria-hidden="true"></i> Filtrer</button>
                            </div>
                            <div class="button-download align-self-end">
-                               <button type="button" class="btn btn-light"><i class="fa fa-cloud-download i-black" aria-hidden="true"></i></button>
+                               <button type="button" class="btn btn-white"><i class="fa fa-cloud-download i-black" aria-hidden="true"></i></button>
                            </div>
                            <div class="button-download align-self-end">
-                               <button type="button" class="btn btn-dark btn-orange"><i class="fa fa-plus i-black" aria-hidden="true"></i></button>
+                               <button type="button" class="btn btn-orange"><i class="fa fa-plus i-black" aria-hidden="true"></i></button>
                            </div>
                        </div>
                        
-                       <div class="table-liste col-md-12">
-                           <table class="table">
-                               <thead>
-                                   <tr>
-                                       <th scope="col">ID <i class="fa fa-sort-down" aria-hidden="true"></i></th>
-                                       <th scope="col">PSEUDO <i class="fa fa-sort" aria-hidden="true"></i></th>
-                                       <th scope="col">STATUT <i class="fa fa-sort" aria-hidden="true"></i></th>
-                                       <th scope="col">CONNEXIONS <i class="fa fa-sort" aria-hidden="true"></i></th>
-                                   </tr>
-                               </thead>
-                               <tbody>
-                                    <tr>
-                                      <th scope="row">1836</th>
-                                      <td>Test Paris</td>
-                                      <td class="statut-i">1</td>
-                                      <td>0</td>
-                                    </tr>
-                                    <tr>
-                                      <th scope="row">1837</th>
-                                      <td>Test Marseille</td>
-                                      <td class="statut-i">1</td>
-                                      <td>0</td>
-                                    </tr>
-                                    <tr>
-                                      <th scope="row">1838</th>
-                                      <td>Test Lyon</td>
-                                      <td class="statut-i">1</td>
-                                      <td>4</td>
-                                    </tr>
-                                    <tr>
-                                      <th scope="row">1839</th>
-                                      <td>Test Bordeaux</td>
-                                      <td class="statut-i">0</td>
-                                      <td>0</td>
-                                    </tr>
-                                    <tr>
-                                      <th scope="row">1840</th>
-                                      <td>Test Aix</td>
-                                      <td class="statut-i">1</td>
-                                      <td>8</td>
-                                    </tr>
-                               </tbody>
-                           </table>
-                           <div class="pagination-table d-flex flex-row justify-content-between">
-                               <p><bold>1 à 5</bold> sur 5 résultats</p>
-                               <p class="pagination align-self-right"><i class="fa fa-chevron-left align-self-center" aria-hidden="true"></i><span>1</span><i class="fa fa-chevron-right align-self-center" aria-hidden="true"></i></p>
+                       <div class="table-list col-md-12">
+                          <div class="table-bg">
+                               <table class="table">
+                                   <thead>
+                                       <tr>
+                                           <th scope="col"><span>ID</span> <i class="ml-auto fa fa-sort-down" aria-hidden="true"></i></th>
+                                           <th scope="col">PSEUDO <i class="fa fa-sort" aria-hidden="true"></i></th>
+                                           <th scope="col">STATUT <i class="fa fa-sort" aria-hidden="true"></i></th>
+                                           <th scope="col">CONNEXIONS <i class="fa fa-sort" aria-hidden="true"></i></th>
+                                           <th></th>
+                                       </tr>
+                                   </thead>
+                                   <tbody>
+                                        <tr>
+                                          <td scope="row">1836</td>
+                                          <td>Test Paris</td>
+                                          <td class="statut-i">1</td>
+                                          <td>0</td>
+                                          <td><a href="">●●●</a></td>
+                                        </tr>
+                                        <tr>
+                                          <td scope="row">1837</td>
+                                          <td>Test Marseille</td>
+                                          <td class="statut-i">1</td>
+                                          <td>0</td>
+                                          <td><a href="">●●●</a></td>
+                                        </tr>
+                                        <tr>
+                                          <td scope="row">1838</td>
+                                          <td>Test Lyon</td>
+                                          <td class="statut-i">1</td>
+                                          <td>4</td>
+                                          <td><a href="">●●●</a></td>
+                                        </tr>
+                                        <tr>
+                                          <td scope="row">1839</td>
+                                          <td>Test Bordeaux</td>
+                                          <td class="statut-i">0</td>
+                                          <td>0</td>
+                                          <td><a href="">●●●</a></td>
+                                        </tr>
+                                        <tr>
+                                          <td scope="row">1840</td>
+                                          <td>Test Aix</td>
+                                          <td class="statut-i">1</td>
+                                          <td>8</td>
+                                          <td><a href="">●●●</a></td>
+                                        </tr>
+                                   </tbody>
+                               </table>
+                               <div class="pagination-table d-flex flex-row justify-content-between">
+                                   <p><bold>1 à 5</bold> sur 5 résultats</p>
+                                   <p class="pagination align-self-right"><i class="fa fa-chevron-left align-self-center" aria-hidden="true"></i><span>1</span><i class="fa fa-chevron-right align-self-center" aria-hidden="true"></i></p>
+                               </div>
                            </div>
                        </div>
                 </div>
