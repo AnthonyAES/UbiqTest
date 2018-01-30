@@ -20,7 +20,16 @@
             <div class="container-fluid">
                 <div class="row justify-content-end">
                     <div class="d-flex nav-account col-md-3">
-                       <a class="align-self-center align-self-end" href="#">Bienvenue <span class="user">Anthony Sautebin</span><i class="fa fa-building-o i-white" aria-hidden="true"></i></a>                 
+                       <a class="btn-account align-self-center align-self-end" href="#">Bienvenue <span class="user">Anthony Sautebin</span><i class="fa fa-building-o i-white" aria-hidden="true"></i></a> 
+                        <div class="account-modal hide">
+                            <nav>
+                                <ul class="nav flex-column">
+                                    <li><i class="fa fa-cog" aria-hidden="true"></i> <span>Paramètres</span></li>
+                                    <li><i class="fa fa-code-fork" aria-hidden="true"></i><span>Réseaux sociaux</span></li>
+                                    <li class="disconnect d-flex"><span>Se déconnecter</span><i class="ml-auto align-self-center fa fa-power-off" aria-hidden="true"></i></li>
+                                </ul>
+                            </nav>
+                        </div>                
                     </div>
                 </div>
                 <div class="row bread-bg align-items-center justify-content-end">
@@ -72,7 +81,7 @@
                                <button type="button" class="btn btn-white"><i class="fa fa-cloud-download i-black" aria-hidden="true"></i></button>
                            </div>
                            <div class="button-download align-self-end">
-                               <button type="button" class="btn btn-orange"><i class="fa fa-plus i-black" aria-hidden="true"></i></button>
+                               <button type="button" class="btn btn-orange btn-form"><i class="fa fa-plus i-black" aria-hidden="true"></i></button>
                            </div>
                        </div>
                        
@@ -89,35 +98,35 @@
                                        </tr>
                                    </thead>
                                    <tbody>
-                                        <tr>
+                                        <tr class="on">
                                           <td scope="row">1836</td>
                                           <td>Test Paris</td>
                                           <td class="statut-i">1</td>
                                           <td>0</td>
                                           <td><a href="">●●●</a></td>
                                         </tr>
-                                        <tr>
+                                        <tr class="on">
                                           <td scope="row">1837</td>
                                           <td>Test Marseille</td>
                                           <td class="statut-i">1</td>
                                           <td>0</td>
                                           <td><a href="">●●●</a></td>
                                         </tr>
-                                        <tr>
+                                        <tr class="on">
                                           <td scope="row">1838</td>
                                           <td>Test Lyon</td>
                                           <td class="statut-i">1</td>
                                           <td>4</td>
                                           <td><a href="">●●●</a></td>
                                         </tr>
-                                        <tr>
+                                        <tr class="off">
                                           <td scope="row">1839</td>
                                           <td>Test Bordeaux</td>
                                           <td class="statut-i">0</td>
                                           <td>0</td>
                                           <td><a href="">●●●</a></td>
                                         </tr>
-                                        <tr>
+                                        <tr class="on">
                                           <td scope="row">1840</td>
                                           <td>Test Aix</td>
                                           <td class="statut-i">1</td>
@@ -146,7 +155,7 @@
                         <li><a href="#">Mentions Légales</a></li>
                         <li>|</li>
                         <li>Version 2.1.0</li>
-                        <li class="ml-auto"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> #GETLOCALSUCCES</a></li>
+                        <li class="twitter ml-auto"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> #GETLOCALSUCCES</a></li>
                     </ul>
                 </nav>  
            </div>
@@ -159,5 +168,5 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-   <!-- <script src="js/main.js"></script>-->
+    <script src="js/main.js"></script>
 </html>
