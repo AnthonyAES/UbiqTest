@@ -47,4 +47,4 @@
 
 
 <h4>La maquette du formulaire</h4>
-<p><img style="height: auto;" src="Maquette/formulaire.jpg" width="1391" height="780" alt="maquette de formulaire d'inscription"></p>
+<p><img style="height: auto;" src="Maquette/formulaire.jpg" width="1391" height="780" alt="maquette de formulaire d'inscription utilisateur"></p>
