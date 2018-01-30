@@ -38,7 +38,8 @@
     <li>Le tri du tableau au clique <br/>
     <p>J'aurais vérifié le [innerHtml] des [td] et aurais changer l'ordre des [tr] grâce à la class [order-]. La vérification du [innerHtml] aurait trié l'ordre des [tr] grâce au fonctions <a href="https://www.miximum.fr/blog/trier-un-tableau-de-nombres-avec-javascript/" target="
     ">Trier un tableau de nombre</a> et pour le tri par alphabet un [.sort()] suffit mais pour les accents je pensais me servir de la fonction [localeCompare()].</p></li>
-    
+</ul>   
+<ul>    
     <li>L'intégration du formulaire avec vérification <br/>
     <p>J'aurais intégré une modal avec verification des valeurs entrée en JS grâce à l'event [onchange].</p></li>
 </ul>
