@@ -1,10 +1,3 @@
-<style>
-    img {
-        height: auto;
-    }
-</style>
-
-
 <h2>Test Webdesigner Infographiste UBIQ</h2>
 
 
@@ -52,4 +45,4 @@
 
 
 <h4>La maquette du formulaire</h4>
-<p><img src="Maquette/formulaire.jpg" width="1391" height="780" alt="maquette de formulaire d'inscription utilisateur"></p>
+<p><img style="height: auto; width: 100%;" src="Maquette/formulaire.jpg" width="1391" height="780" alt="maquette de formulaire d'inscription utilisateur"></p>
