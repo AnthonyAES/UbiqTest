@@ -1,0 +1,39 @@
+.dontshow {
+    display: none;
+}
+
+/*===== GENERAL =====*/
+div.row {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+
+/*===== HEADER =====*/
+.nav-account {
+    height: 60px;
+    text-align: right;
+}
+
+.nav-account a {
+    margin-left: auto;
+    color: #8c8d8d;
+}
+
+.nav-account a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.nav-account a span {
+    color: #626262;
+}
+
+.nav-account a i {
+    padding: 10px;
+    background-color: #f5bc0e;
+    border-radius: 50%;
+    color: white;
+    margin: 10px;
+    font-size: 12px;
+}
