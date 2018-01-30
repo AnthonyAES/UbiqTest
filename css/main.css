@@ -162,6 +162,14 @@ section.left-sidebar {
     margin: 10px 0;
 }
 
+.left-sidebar a {
+    color: black;
+}
+
+.left-sidebar a.active, .left-sidebar a:hover {
+    color: #3fa5d9;
+}
+
 /*=====FILTERS=====*/
 section.main-content {
     margin-top: 60px;
